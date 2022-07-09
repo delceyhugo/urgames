@@ -1,19 +1,19 @@
 <template>
     <div class="nav">
         <ul id="menu">
-            <li style="--i:5;" class="button">
+            <li id="link-1" style="--i:5;" class="button">
                 <router-link to="/new">new</router-link>
             </li>
-            <li style="--i:4;" class="button">
-                <router-link to="/login">login</router-link>
+            <li id="link-2" style="--i:4;" class="button">
+                <router-link to="/login">continue</router-link>
             </li>
-            <li style="--i:3;" class="button">
+            <li id="link-3" style="--i:3;" class="button">
                 <router-link to="/support">support</router-link>
             </li>
-            <li style="--i:2;" class="button">
+            <li id="link-4" style="--i:2;" class="button">
                 <router-link to="/about">about</router-link>
             </li>
-            <li style="--i:1;" class="button">
+            <li id="link-5" style="--i:1;" class="button">
                 <a href="">quit</a>
             </li>
         </ul>
@@ -69,6 +69,8 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 .button:hover a {
   color: white;

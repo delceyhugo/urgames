@@ -267,6 +267,11 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
+leader-line-vue@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/leader-line-vue/-/leader-line-vue-2.1.1.tgz#738ff22bd80a62a694840fd7358f936ceb3ad898"
+  integrity sha512-ZfNoDcwgfHESNLErfPBdJ4I/1tbXLBUFwGfbqAZvTcOghcm7UtUm7mUPZVAOThlO3q75n8pZmDTGtM/Gwfx+xA==
+
 magic-string@^0.25.7:
   version "0.25.9"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.9.tgz#de7f9faf91ef8a1c91d02c2e5314c8277dbcdd1c"
